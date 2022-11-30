@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="practice.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="jumbotron bg-secondary">
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="form-sub">
+                <div class="form-group ">
+                    <label id="lab" for="city">City :</label>
+                    <input type="text" class="form-control" id="city" placeholder="ex. London...">
+                    <small id="bot" class="form-text">Fill city name for weather details.</small>
+                    <select id="temp">
+                        <option value="1" selected>Celcius</option>
+                        <option value="2">Fahrenheit</option>
+                    </select>
+                    <br>
+                    <button id= "button" type="button" class="btn btn-primary mt-3"> Submit </button>
+                </div>
+            </form>
+            <hr>
+            <div class="details"></div>
+            <div class="clock"></div>
+        </div>
+    </div>
+
+
+    <!-- JQuery Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- My Scripts -->
+    <script src="practice.js"></script>
+    
+</body>
+</html>
